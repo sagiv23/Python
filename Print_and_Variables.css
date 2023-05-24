@@ -1,0 +1,48 @@
+#print_example_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+#not_down_a_line_example_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+#down_a_line_example_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+#variables_example_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#variables_name_example_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#input_example_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+
+#input_variables_example_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+}

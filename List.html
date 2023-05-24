@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Style_Main.css">
+    <link rel="stylesheet" href="List.css">
+    <script src="js.js"></script>
+    <title>Sagiv23 - Python website</title>
+    <link rel="icon" href="img/icon.png" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="head">
+        <nav>
+            <a href="index.html"> <img src = "img/icon.png" id = "Icon_Img_nav"></a>
+            <ul>
+                <a href="https://sagiv23.github.io"> <li>Home</li></a>
+                <a href="How_To_print_and_what_Are_Variables.html"> <li>Print&Variables</li></a>
+                <a href="If.html"> <li>If</li></a>
+                <a href="Division&remainder.html"> <li>Division&remainder</li></a>
+                <a href="Loops.html"> <li>Loops</li></a>
+                <a href="String.html"> <li>String</li></a>
+                <a href="Functions.html"> <li>Functions</li></a>
+                <a href="List.html"> <li>List</li></a>
+                <a href="Queue.html"> <li>Queue</li></a>
+            </ul>
+        </nav>
+    </div>
+    <div id = "List">
+        <h1>List</h1>
+
+        <h2><u>What is a <span id="command">List</span>?</u><br>
+            <span id="command">List</span>: A data structure containing elements separated by the "," sign.<br>
+            The concept of list is based on the "<u>LIFO</u>" ---> Last In First Out.</h2>
+        <img src="img/List/example.png" id = "example_img">
+
+        <h3>Commands in lists</h3>
+        
+        <h2>How to add a member to the list? <span id="command">lst.append("...")</span> command.</h2>
+        <img src="img/List/append_example.png" id = "example_append_img">
+
+        <h2>How to input a list?</h2>
+        <img src="img/List/input1_example.png" id = "input1_example_img">
+        <img src="img/List/input2_example.png" id = "input2_example_img">
+
+        <h2>Each character in the list is numbered from 0 to the end of the list.
+            A specific value in a list can be accessed by using [ ].</h2>
+        <img src="img/List/access_example.png" id = "example_access_img">
+
+        <h2>Remember! You can access the character in the opposite way:</h2>
+        <img src="img/List/access_-1_example.png" id = "example_access_-1_img">
+
+        <h2>A member can be cut from the original list by using colons inside [::], which allows start, end and jump (if necessary).<br>
+            Remember: The last character will not be included in the cut!</h2>
+        <img src="img/List/cut_example.png" id = "example_cut_img">
+
+        <h2>How to check the length of the list? <span id="command">len(lst)</span> command.</h2>
+        <img src="img/List/len_example.png" id = "example_len_img">
+
+        <h2>How to check how many times the member appears in a list? <span id="command">lst.count(“...”)</span> command.</h2>
+        <img src="img/List/count_example.png" id = "example_count_img">
+
+        <h2>How to check if the member is in the list? <span id="command">in</span> command.</h2>
+        <img src="img/List/in_example.png" id = "example_in_img">
+
+        <div id = "emphasis">
+            <h2>How to delete a member from the list? <span id="command">lst.remove("...")</span> command.</h2>
+            <img src="img/List/remove1_example.png" id = "example_remove_img">
+            <h2>but! What will happen if we try to delete a member that does not appear in the list???</h2>
+            <img src="img/List/remove2_example.png" id = "example_remove_img">
+            <h2>In order to avoid this error, we will first check whether the member appears in the list by <span id="command">if()</span></h2>
+        </div>
+
+        <h2>How to delete a member according to its location? <span id="command">lst.pop(index)</span> command.<br>
+            If you don't choose a place, the last member will be deleted!</h2>
+        <img src="img/List/pop_example.png" id = "example_pop_img">
+        
+        <div id="emphasis">
+            <h2>How do you know where the member is located? <span id="command">lst.index("...")</span> command.</h2>
+            <img src="img/List/index1_example.png" id = "example_index_img">
+            <h2>but! What will happen if we try to find a member that does not exist in the list?</h2>
+            <img src="img/List/index2_example.png" id = "example_index_img">
+            <h2>In order to avoid this case, we would like to check whether the member even appears in the list using <span id="command">if()</span></h2>
+        </div>
+
+        <h3>How to go through a list?</h3>
+
+        <h2>There are 2 methods:<br>
+            <u>The first</u> - by index, traversing by range and accessing the list members by their index.<br>
+            <u>The second</u> - by value, going over the list according to the values ​in it.</h2>
+        <img src="img/List/for_list_example.png" id = "example_for_list_img">
+        <h3>This part requires knowing strings:</h3>
+
+        <h2>How to turn a list into text? <span id="command">"...".join(lst)</span> command.</h2>
+        <img src="img/List/join_example.png" id = "example_join_img">
+
+        <h2>How to turn text into a list? <span id="command">string.spilt("...")</span> command.</h2>
+        <img src="img/List/split_example.png" id = "example_split_img">
+
+        <h2>How to turn text into a list, so that each letter is a member? <span id="command">list(string)</span> command.</h2>
+        <img src="img/List/list_example.png" id = "example_list_img">
+
+        <img src="img/List/summary.png" id = "example_summary_img">
+
+        <h2></h2>
+        <iframe src="https://www.programiz.com/python-programming/online-compiler/"></iframe>
+        <h2> </h2>
+        <h2> </h2>
+        <h2> </h2>
+        <h2> </h2>
+        <h2> </h2>
+        <h2> </h2>
+        <h2> </h2>
+        <h2> </h2>
+        <h2> </h2>
+    </div>
+</body>
+</html>

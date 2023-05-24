@@ -1,0 +1,27 @@
+#example_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+#example_value_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+#example_no_value_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#example_global_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}

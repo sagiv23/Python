@@ -1,0 +1,28 @@
+#if_example_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+#else_example_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 350px;
+}
+
+#elif_example_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+#logical_conditions_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
