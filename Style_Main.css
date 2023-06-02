@@ -28,7 +28,7 @@ nav{
 
 li{
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 50px;
     list-style-type: none;
     color: rgb(7,11,40);
     -webkit-text-fill-color:rgb(7,11,40);
@@ -36,13 +36,13 @@ li{
 }
 
 li:hover{
-    color: rgb(37, 118, 224);
-    -webkit-text-fill-color:rgb(37, 118, 224);
+    color: rgb(123,227,24);
+    -webkit-text-fill-color:rgb(123,227,24);
     transition: 0.7s;
 }
 
 ul{
-    margin-right: 30px;
+    margin-right: 80px;
 }
 
 a{
@@ -52,7 +52,6 @@ a{
     font-size: 35px;
     color: black;
 }
-
 
 body{
     background-image: url("img/background.png");
